@@ -22,7 +22,7 @@ Tussen 9:00 en 11:00 kun je starten bij **restaurant De Alkmaarse Poort**, geleg
 De eindbestemming is **Westcoast Motors**, gevestigd aan Madame Curiestraat 6 in Alkmaar. Hier sluiten we de dag feestelijk af rond 15:00.
 
 ### Inschrijven
-Meedoen? De inschrijfkosten bedragen **€10,-**. Inschrijven kan uitsluitend bij **De Alkmaarse Poort**, waar je bij inschrijving een stempelkaart ontvangt. Deze kaart gebruik je tijdens de motortocht om stempels te verzamelen bij de verschillende posten langs de route.
+Meedoen? De inschrijfkosten bedragen **€13,-**. Inschrijven kan uitsluitend bij **De Alkmaarse Poort**, waar je bij inschrijving een stempelkaart ontvangt. Deze kaart gebruik je tijdens de motortocht om stempels te verzamelen bij de verschillende posten langs de route.
 
 ### Voor Iedereen!
 De motortocht wordt georganiseerd door **Westcoast Motors**, maar is **open voor alle motorrijders**! Of je nu een Harley-Davidson hebt of een ander merk rijdt, iedereen is welkom om mee te doen aan deze geweldige tocht.
