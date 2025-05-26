@@ -16,7 +16,7 @@ Om geld in te zamelen voor Emma organiseren we meerdere activiteiten. Zo zijn er
 
 {% endcapture %}
 {% include bubble_right.html image="/img/triathlon.png" header="Activiteiten"
-content=intro_content %}
+content=intro_content no-rounded=true %}
 
 
 
