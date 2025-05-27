@@ -31,7 +31,7 @@ De motortocht wordt georganiseerd door **Westcoast Motors**, maar is **open voor
 
 
 {% capture motortocht_content %}
-We willen [Coast Riders Chapter Alkmaar](ttps://www.coastriderschapter.nl/) hartelijk bedanken voor de organisatie van dit event!
+We willen [Coast Riders Chapter Alkmaar](https://www.coastriderschapter.nl/) hartelijk bedanken voor de organisatie van dit event!
 {: .m-0}
 
 {% endcapture %}
