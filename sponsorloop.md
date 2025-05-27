@@ -21,19 +21,21 @@ wide: true
 
 
 <div class="progress-bg col-lg-11 mx-auto">
-    <h3>Zaterdag 19 April is de sponsorloop! </h3>
+    <h3>De sponsorloop is geweest!</h3>
+    <p>Wat een fantastische middag hebben we gehad! Iedereen bedankt voor de inzet en gezelligheid, en in het bijzonder een bedankje voor onze sponsoren en vrijwilligers die de dag mogelijk hebben gemaakt 🥳. Emma heeft een topfeest gehad. En als klap op de vuurpijl tot nu toe een ongelofelijk bedrag opgehaald van € {{ page.raised_money }}! 💰🤯</p>
+    <p>BEDANKT BEDANKT BEDANKT! ❤️</p>
     <div class="progress">
         <div class="progress-bar active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{ progress_pct }}%;" aria-valuenow="{{ progress_pct }}">
         </div>
     </div>
     <div class="row mx-auto justify-content-between" style="margin-top: 10px;">
         <h6>€ {{ page.raised_money }} van € {{ page.total_money }} ingezameld</h6>
-        <h6>Er lopen al {{ page.loper_count }} kinderen mee!</h6>
+        <h6>Er liepen {{ page.loper_count }} kinderen mee!</h6>
     </div>
 </div>
 
 {% capture datum_content %}
-De sponsorloop wordt gehouden op zaterdag 19 April van 15:00 tot 18:00.
+De sponsorloop wordt gehouden op zaterdag 19 April 2025 van 15:00 tot 18:00.
 {: .m-0}
 
 {% endcapture %}
