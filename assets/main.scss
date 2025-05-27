@@ -44,3 +44,14 @@ h5 + p {
         padding-right: 5px; 
     }
 }
+
+@media (max-width: 599px) {
+    .insta-label::after {
+        content: "Insta";
+    }
+}
+@media (min-width: 600px) {
+    .insta-label::after {
+        content: "Instagram";
+    }
+}
