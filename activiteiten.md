@@ -39,7 +39,7 @@ Inschrijven kan bij de balie van Sportinstituut Tom van der Kolk (Klaas Bootpad 
 
 [Meer Info](/spinningmarathon){: .btn-xl .btn-primary .col-3 }
 {% endcapture %}
-{% include bubble_right.html image="/img/flyer-spinning-marathon.jpg" image-link="/spinningmarathon" header="Spinning marathon"
+{% include bubble_right.html image="/img/flyer-spinning-marathon2.jpg" image-link="/spinningmarathon" header="Spinning marathon"
 content=spinning_content no-rounded=true %}
 
 
