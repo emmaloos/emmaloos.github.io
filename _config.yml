@@ -55,6 +55,12 @@ sponsors:
   - name: "Sportinstituut Tom van der Kolk"
     url: "https://tomvanderkolk.nl"
     image: "/img/sponsors/tom-van-der-kolk.jpg"
+  - name: "Stammis Horeca Verhuur"
+    url: "https://stammishorecaverhuur.nl/"
+    image: "/img/sponsors/stammis-horeca-verhuur.jpg"
+  - name: "West Coast Motors"
+    url: "https://westcoastmotors.nl/"
+    image: "/img/sponsors/west-coast-motors.jpg"
 
 
 # Build settings
