@@ -2,9 +2,73 @@
 layout: home
 background: '/img/emma/PHOTO-2024-04-14-15-33-44.jpg'
 background-position: center 20%
+
+pictures:
+  - "img/bedankt/auto1.jpg"
+  - "img/bedankt/auto2.jpg"
+  - "img/bedankt/auto3.jpg"
+  - "img/bedankt/auto4.jpg"
 ---
 
 {% include doneer-info-buttons.html follow=true %}
+
+
+# Bedankt!
+
+✨️ Lieve allemaal,
+
+Na alle evenementen en sponsoracties hebben we onszelf even tijd gegeven om alles te laten bezinken. Onszelf rust gegeven om terug te kijken op een drukke, hectische, maar prachtige periode. 
+
+Vooraf hadden we bedacht een actie te starten voor de rolstoelbus, op Emma haar verjaardag. Iedere € scheelt bij zo'n aankoop! De hoop ging uit naar een paar duizend €. Mirel heeft toen als grap een bedrag genoemd van €10.000 ..Waar Ed haar om uitgelachen heeft, want zo veel zal je nooit ophalen.. toch..?!
+
+Little did we know..💥
+
+Wat volgde was een reeks van acties. Opgezet door ons, door vrienden, door inmiddels nieuwe vrienden, kennissen, maar ook onbekenden, die zich hebben ingezet voor ons en lieve Emma. Er zijn verschillende acties opgezet, zoals de sponsorloop bij kolpingboys, spinningmarathon bij Tom van der Kolk en de motortocht door Coastriders Chapter bij West Coast Motors. Alles is veel groter geworden dan we ooit hadden gedacht. Alle acties zijn geëxplodeerd in positieve zin 🙌🏻
+
+Speciale dank gaat uit naar Wim& Harry voor het initiëren en organiseren van de spinningmarathon en de motortocht en alle betrokkenheid in de algemeenste zin van 't woord.
+
+Cindy&Roy voor letterlijk alle hulp die we in de afgelopen tijd van hen hebben ontvangen. 'T meedenken over en de organisatie van de sponsorloop. Maar ook 't beheren van de social media.
+
+Daniël voor de bouw en 't beheer van de website.
+
+Ook dank aan alle anderen die zelf een actie gestart zijn en die heeft geholpen tijdens de events. Dit zijn er te veel om op te noemen, dus voor we iemand vergeten doen we deze algemeen!
+
+De grootste dank gaat uit naar jullie!
+Naar iedereen die iets heeft bijgedragen, groot of klein. Emotioneel en overweldigd zijn we. Het feit dat zo veel mensen zich hebben ingezet, betrokken zijn geweest en ons hebben geholpen raakt ons diep en maakt ons nederig en dankbaar 🥹
+
+We hebben in totaal €40.000 opgehaald!
+Ver boven wat we ooit hebben durven dromen! Door jullie hebben we onze droom-familieauto kunnen kopen 🚐!
+
+Net voor de vakantie kregen we sleutels en hebben we 'm meteen getest: 1800km naar Spanje 🇪🇸! 
+
+Onze dank is immens! ❤️
+
+Emma, Edwin, Mirelle en Millie
+
+
+<div id="carouselControls" class="carousel slide p-3" data-ride="carousel">
+  <div class="carousel-inner">
+  {% for picture in page.pictures %}
+    {% if picture == page.pictures.first %}
+    <div class="carousel-item active">
+    {% else %}
+    <div class="carousel-item">
+    {% endif %}
+      <img class="d-block w-100" src="{{ picture }}">
+    </div>
+  {% endfor %}
+  </div>
+  <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+------
 
 ## Dit is onze fantastische dochter Emma.
 #### Knuffelkont. Kusjesmonster. Muziekliefhebber. Veerkrachtige strijder.
@@ -19,8 +83,6 @@ Er zijn verschillende benefiet acties opgezet, door onszelf en door derden.
 - **Zaterdag 19 april 2025**: [Sponsorloop]({{ "/sponsorloop" | relative_url }}) voor kinderen bij vv Kolping Boys in Alkmaar. [Meer Info](/sponsorloop){: .btn-primary .p-1 .ml-2 }
 - **Zondag 25 mei 2025**: [Spinning marathon]({{ "/spinningmarathon" | relative_url }}) bij sportinstituut Tom van der Kolk in Alkmaar. [Meer Info](/spinningmarathon){: .btn-primary .p-1 .ml-2 }
 - **Zaterdag 21 juni 2025**: [Open ride out (motorrijtocht)]({{ "/motortocht" | relative_url }}) door Coast Riders Chapter Alkmaar. [Meer Info](/motortocht){: .btn-primary .p-1 .ml-2 }
-
-Wil je meer informatie over of meedoen met een van de benefietacties, doneren of je anderzijds inzetten voor Emma? Klik dan op één van onderstaande knoppen.
 
 
 {% include doneer-info-buttons.html meer_info=true %}
