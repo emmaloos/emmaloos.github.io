@@ -11,7 +11,7 @@ wide: true
 </div>
 
 {% capture intro_content %}
-Om geld in te zamelen voor Emma organiseren we meerdere activiteiten. Zo zijn er binnenkort een spinning marathon en een motortocht, en was er op 19 April een sponsorloop.
+Om geld in te zamelen voor Emma organiseren we meerdere activiteiten. Zo zijn er een sponsorloop, een spinning marathon en een motortocht.
 {: .m-0}
 
 {% endcapture %}
@@ -26,7 +26,7 @@ De Harley Davidson club van Alkmaar organiseert op 21 juni 2025 een motortocht. 
 
 [Meer Info](/motortocht){: .btn-xl .btn-primary .col-3 }
 {% endcapture %}
-{% include bubble_left.html image="/img/flyer-motortocht.jpg" image-link="/motortocht" header="Motortocht" no-rounded=true
+{% include bubble_left.html image="/img/flyer-motortocht2.jpg" image-link="/motortocht" header="Motortocht" no-rounded=true
 content=motortocht_content %}
 
 
@@ -65,5 +65,5 @@ Als je op een andere manier wilt helpen, [kan je contact opnemen]({{ site.contac
 
 <a class="btn-xl btn-primary col-3" href="{{ site.contacturl }}">&#9993; Contact</a>
 {% endcapture %}
-{% include bubble_right.html image="/img/betaalverzoek_qr.png" image-link=site.doneerurl no-rounded=true header="Doneer"
-content=doneer_content %}
+<!-- {% include bubble_right.html image="/img/betaalverzoek_qr.png" image-link=site.doneerurl no-rounded=true header="Doneer"
+content=doneer_content %} -->

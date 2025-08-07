@@ -45,7 +45,7 @@ pictures:
 </div>
 <div class="progress-bg col-lg-11 mx-auto mt-5">
     <h3 class="carousel slide px-3">Foto's</h3>
-<div id="carouselExampleControls" class="carousel slide p-3" data-ride="carousel">
+<div id="carouselControls" class="carousel slide p-3" data-ride="carousel">
   <div class="carousel-inner">
   {% for picture in page.pictures %}
     {% if picture == page.pictures.first %}
@@ -57,11 +57,11 @@ pictures:
     </div>
   {% endfor %}
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -111,8 +111,8 @@ Doneren kan via onderstaande link. Heel erg bedankt voor uw steun!
 
 <a class="btn-xl btn-danger col-5" href="{{ site.doneerurl }}">&#10084;&#65038; Doneer</a>
 {% endcapture %}
-{% include bubble_left.html image="/img/betaalverzoek_qr.png" image-link=site.doneerurl no-rounded=true header="Doneer"
-content=doneer_content %}
+<!-- {% include bubble_left.html image="/img/betaalverzoek_qr.png" image-link=site.doneerurl no-rounded=true header="Doneer"
+content=doneer_content %} -->
 
 {% capture locatie_content %}
 De sponsorloop is op het terrein van de Kolping Boys, [Beverdam 3 in Alkmaar](https://maps.app.goo.gl/orsoURzLDYEHCVJS6).

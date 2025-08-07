@@ -35,7 +35,7 @@ We willen [Coast Riders Chapter Alkmaar](https://www.coastriderschapter.nl/) har
 {: .m-0}
 
 {% endcapture %}
-{% include bubble_left.html image="/img/sponsors/coast-riders-alkmaar.png" no-rounded=true
+{% include bubble_right.html image="/img/sponsors/coast-riders-alkmaar.png" no-rounded=true
 content=motortocht_content %}
 
 
@@ -46,8 +46,8 @@ Doneren kan via onderstaande link. Heel erg bedankt voor uw steun!
 
 <a class="btn-xl btn-danger col-5" href="{{ site.doneerurl }}">&#10084;&#65038; Doneer</a>
 {% endcapture %}
-{% include bubble_right.html image="/img/betaalverzoek_qr.png" image-link=site.doneerurl no-rounded=true header="Doneer"
-content=doneer_content %}
+<!-- {% include bubble_right.html image="/img/betaalverzoek_qr.png" image-link=site.doneerurl no-rounded=true header="Doneer"
+content=doneer_content %} -->
 
 
 
